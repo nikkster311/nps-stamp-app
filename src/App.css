@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+/* for visualization - delete later */
+
+.stamp-list-component {
+  background-color: orange;
+  padding: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.stamp-list-wrapper {
+  background: rgb(221, 133, 133);
+  padding: 10px;
+}
+.stamp-list-wrapper ul {
+  background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.index-pg {
+  background-color: rgb(74, 180, 251);
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* STAMP CSS */
+
+/* stamps in a list */
+.stamp-list-wrapper {
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.stamp-list-wrapper .title-row {
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.stamp-list-wrapper ul {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 25px 1fr 2fr 1fr 3fr 1fr;
+  padding-left: 0;
 }
+
+.stamp-list-wrapper ul li {
+  list-style-type: none;
+  border: 1px solid black;
+}
+
+/* stamps on single stamp page */
