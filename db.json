@@ -1,0 +1,31 @@
+{
+  "stamps": [
+    {
+      "id": 1,
+      "name": "Glacier Bay NP & PRES",
+      "img": "img.jpg",
+      "park": "Glacier Bay",
+      "location": "Gustavus, Dry Bay Ranger Station",
+      "acquired": false,
+      "dateAquired": "01/01/1900"
+    },
+    {
+      "id": 2,
+      "name": "Tuzigoot NM",
+      "img": "img.jpg",
+      "park": "Tuzigoot",
+      "location": "Clarkdale",
+      "acquired": false,
+      "dateAquired": "01/01/1900"
+    },
+    {
+      "id": 3,
+      "name": "Carlsbad Caverns Stamp",
+      "img": "img.jpg",
+      "park": "Carlsbad Caverns",
+      "location": "Carlsbad, NM",
+      "acquired": false,
+      "dateAquired": "01/01/1900"
+    }
+  ]
+}
