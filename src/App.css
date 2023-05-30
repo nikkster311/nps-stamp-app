@@ -1,3 +1,12 @@
+/* universal */
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
 /* for visualization - delete later */
 
 .stamp-list-component {
@@ -19,8 +28,54 @@
 }
 
 /* STAMP CSS */
+/* stamp active - modal */
+.close-btn {
+  z-index: 10;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
 
-/* stamps in a list */
+.stamp-active {
+  width: 80%;
+  height: 50vh;
+  position: absolute;
+  top: 1%;
+  left: 3%;
+}
+
+.stamp-cards-wrapper .stamp-active ul {
+  width: 92vw;
+  height: 93vh;
+}
+/* cards option active - make list into cards*/
+.stamp-cards-wrapper .title-row {
+  display: none;
+}
+
+.stamp-cards-wrapper {
+  display: block;
+  background: rgb(143, 135, 135);
+  padding: 2px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.stamp-cards-wrapper ul {
+  width: 25vw;
+  min-width: 150px;
+  background: blanchedalmond;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* On mouse-over, add a deeper shadow */
+.stamp-cards-wrapper ul:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* list option active */
 .stamp-list-wrapper {
   display: grid;
   grid-template-rows: auto;
@@ -39,8 +94,12 @@
 }
 
 .stamp-list-wrapper ul li {
-  list-style-type: none;
   border: 1px solid black;
+}
+
+.stamp-list-wrapper ul li,
+.stamp-cards-wrapper ul li {
+  list-style-type: none;
 }
 
 /* stamps on single stamp page */
