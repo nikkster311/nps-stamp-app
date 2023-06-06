@@ -6,9 +6,13 @@ function Stamp({ stamp }) {
         {stamp.aquired ? true : false}
       </li>
       <li>{stamp.img}</li>
-      <li>{stamp.name}</li>
-      <li>{stamp.park}</li>
-      <li>{stamp.location}</li>
+      <li>{stamp.label}</li>
+      <li>
+        <a href={stamp.parks[0].url} target="_blank">
+          {stamp.parks[0].fullName}
+        </a>
+      </li>
+      <li>{stamp.parks[0].states}</li>
       <li>{stamp.dateAquired}</li>
     </ul>
   );
