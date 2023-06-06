@@ -32,22 +32,27 @@
 .close-btn {
   z-index: 10;
   position: absolute;
-  top: 5%;
-  right: 5%;
+  top: 14%;
+  right: 13%;
 }
 
 .stamp-active {
-  width: 80%;
-  height: 50vh;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 1%;
-  left: 3%;
+  left: 0%;
 }
 
 .stamp-cards-wrapper .stamp-active ul {
-  width: 92vw;
-  height: 93vh;
+  width: 75%;
+  height: 75%;
 }
+
+/* CARD TYPES */
 /* cards option active - make list into cards*/
 .stamp-cards-wrapper .title-row {
   display: none;
@@ -70,7 +75,6 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* On mouse-over, add a deeper shadow */
 .stamp-cards-wrapper ul:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
