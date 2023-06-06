@@ -1,15 +1,15 @@
 function Stamp({ stamp }) {
   return (
     <ul key={stamp.id + "-wrapper"}>
-      <li key={stamp.id + "-01"}>
+      <li>
         <input type="checkbox" label="aquired" />
         {stamp.aquired ? true : false}
       </li>
-      <li key={stamp.id + "-02"}>{stamp.img}</li>
-      <li key={stamp.id + "-03"}>{stamp.name}</li>
-      <li key={stamp.id + "-04"}>{stamp.park}</li>
-      <li key={stamp.id + "-05"}>{stamp.location}</li>
-      <li key={stamp.id + "-06"}>{stamp.dateAquired}</li>
+      <li>{stamp.img}</li>
+      <li>{stamp.name}</li>
+      <li>{stamp.park}</li>
+      <li>{stamp.location}</li>
+      <li>{stamp.dateAquired}</li>
     </ul>
   );
 }

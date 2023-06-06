@@ -21,12 +21,12 @@ function StampList({ stamps, type }) {
       </button>
       <section className={`stamp-` + type + `-wrapper`}>
         <ul key="title-row" className="title-row">
-          <li key="checkbox-01"></li>
-          <li key="img-02">Image</li>
-          <li key="name-03">Name</li>
-          <li key="park-04">Park</li>
-          <li key="location-05">Location</li>
-          <li key="dateAquired-06">Date Aquired</li>
+          <li></li>
+          <li>Image</li>
+          <li>Name</li>
+          <li>Park</li>
+          <li>Location</li>
+          <li>Date Aquired</li>
         </ul>
         {stamps.map((stamp, index) => (
           <div
