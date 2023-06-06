@@ -1,0 +1,289 @@
+{
+  "stamps": [
+    {
+      "id": "6E127BF1-F2A9-4C59-90FA-C4BED53EA7F5",
+      "label": "Blackwoods Campground",
+      "parks": [
+        {
+          "states": "ME",
+          "parkCode": "acad",
+          "designation": "National Park",
+          "fullName": "Acadia National Park",
+          "url": "https://www.nps.gov/acad/index.htm",
+          "name": "Acadia"
+        }
+      ],
+      "type": "campgrounds"
+    },
+    {
+      "id": "2DC6EAAC-3718-4438-9630-85E55A3DA496",
+      "label": "Hulls Cove Visitor Center",
+      "parks": [
+        {
+          "states": "ME",
+          "parkCode": "acad",
+          "designation": "National Park",
+          "fullName": "Acadia National Park",
+          "url": "https://www.nps.gov/acad/index.htm",
+          "name": "Acadia"
+        }
+      ],
+      "type": "visitorcenters"
+    },
+    {
+      "id": "D8B74743-0D4A-43B1-8D62-300ACBCC59A7",
+      "label": "Islesford Historical Museum",
+      "parks": [
+        {
+          "states": "ME",
+          "parkCode": "acad",
+          "designation": "National Park",
+          "fullName": "Acadia National Park",
+          "url": "https://www.nps.gov/acad/index.htm",
+          "name": "Acadia"
+        }
+      ],
+      "type": "places"
+    },
+    {
+      "id": "109BDB6B-C627-4C8D-87DA-A4F687E81BCE",
+      "label": "Islesford Historical Museum",
+      "parks": [
+        {
+          "states": "ME",
+          "parkCode": "acad",
+          "designation": "National Park",
+          "fullName": "Acadia National Park",
+          "url": "https://www.nps.gov/acad/index.htm",
+          "name": "Acadia"
+        }
+      ],
+      "type": "visitorcenters"
+    },
+    {
+      "id": "73CD84BA-F5B5-491E-A3B4-B5B6743668AC",
+      "label": "Jordan Pond House",
+      "parks": [
+        {
+          "states": "ME",
+          "parkCode": "acad",
+          "designation": "National Park",
+          "fullName": "Acadia National Park",
+          "url": "https://www.nps.gov/acad/index.htm",
+          "name": "Acadia"
+        }
+      ],
+      "type": "places"
+    },
+    {
+      "id": "8C9553AB-C42C-4DF4-8944-46284D3FBA57",
+      "label": "Lumbermen's Museum",
+      "parks": [
+        {
+          "states": "ME",
+          "parkCode": "kaww",
+          "designation": "National Monument",
+          "fullName": "Katahdin Woods and Waters National Monument",
+          "url": "https://www.nps.gov/kaww/index.htm",
+          "name": "Katahdin Woods and Waters"
+        }
+      ],
+      "type": "visitorcenters"
+    },
+    {
+      "id": "01A50BBE-C113-4704-88B2-61EACE395108",
+      "label": "Millinocket Contact Station",
+      "parks": [
+        {
+          "states": "ME",
+          "parkCode": "kaww",
+          "designation": "National Monument",
+          "fullName": "Katahdin Woods and Waters National Monument",
+          "url": "https://www.nps.gov/kaww/index.htm",
+          "name": "Katahdin Woods and Waters"
+        }
+      ],
+      "type": "visitorcenters"
+    },
+    {
+      "id": "53D6F951-97B5-47FA-BC9F-3527C44FB646",
+      "label": "Ranger Station: Saint Croix Island International Historic Site",
+      "parks": [
+        {
+          "states": "ME",
+          "parkCode": "sacr",
+          "designation": "International Historic Site",
+          "fullName": "Saint Croix Island International Historic Site",
+          "url": "https://www.nps.gov/sacr/index.htm",
+          "name": "Saint Croix Island"
+        }
+      ],
+      "type": "places"
+    },
+    {
+      "id": "1D4CB377-9590-4FE1-8E4F-E9AAB37B8FB0",
+      "label": "Rockefeller Hall",
+      "parks": [
+        {
+          "states": "ME",
+          "parkCode": "acad",
+          "designation": "National Park",
+          "fullName": "Acadia National Park",
+          "url": "https://www.nps.gov/acad/index.htm",
+          "name": "Acadia"
+        }
+      ],
+      "type": "places"
+    },
+    {
+      "id": "801DE19D-8878-4241-9590-213F10E73DD2",
+      "label": "Saint Croix Island Ranger Station",
+      "parks": [
+        {
+          "states": "ME",
+          "parkCode": "sacr",
+          "designation": "International Historic Site",
+          "fullName": "Saint Croix Island International Historic Site",
+          "url": "https://www.nps.gov/sacr/index.htm",
+          "name": "Saint Croix Island"
+        }
+      ],
+      "type": "visitorcenters"
+    },
+    {
+      "id": "46CA9FEA-036F-42CC-9B75-48F0BF531F7F",
+      "label": "Schoodic Institute Welcome Center at Rockefeller Hall",
+      "parks": [
+        {
+          "states": "ME",
+          "parkCode": "acad",
+          "designation": "National Park",
+          "fullName": "Acadia National Park",
+          "url": "https://www.nps.gov/acad/index.htm",
+          "name": "Acadia"
+        }
+      ],
+      "type": "visitorcenters"
+    },
+    {
+      "id": "B2B52195-15AB-4E9E-B441-0694F4193585",
+      "label": "Schoodic Woods Campground",
+      "parks": [
+        {
+          "states": "ME",
+          "parkCode": "acad",
+          "designation": "National Park",
+          "fullName": "Acadia National Park",
+          "url": "https://www.nps.gov/acad/index.htm",
+          "name": "Acadia"
+        }
+      ],
+      "type": "campgrounds"
+    },
+    {
+      "id": "BA911019-45E0-4074-99CF-5E38424BAA92",
+      "label": "Schoodic Woods Campground Ranger Station",
+      "parks": [
+        {
+          "states": "ME",
+          "parkCode": "acad",
+          "designation": "National Park",
+          "fullName": "Acadia National Park",
+          "url": "https://www.nps.gov/acad/index.htm",
+          "name": "Acadia"
+        }
+      ],
+      "type": "visitorcenters"
+    },
+    {
+      "id": "B530C7AD-249F-4632-B78F-3CE8C9F3DBDA",
+      "label": "Seawall Campground",
+      "parks": [
+        {
+          "states": "ME",
+          "parkCode": "acad",
+          "designation": "National Park",
+          "fullName": "Acadia National Park",
+          "url": "https://www.nps.gov/acad/index.htm",
+          "name": "Acadia"
+        }
+      ],
+      "type": "campgrounds"
+    },
+    {
+      "id": "13672307-DED6-4438-8D17-C1F7B6284CCC",
+      "label": "Sieur de Monts Nature Center",
+      "parks": [
+        {
+          "states": "ME",
+          "parkCode": "acad",
+          "designation": "National Park",
+          "fullName": "Acadia National Park",
+          "url": "https://www.nps.gov/acad/index.htm",
+          "name": "Acadia"
+        }
+      ],
+      "type": "places"
+    },
+    {
+      "id": "CA752C71-AFF4-4599-AE84-DEDFE0A21EAA",
+      "label": "Sieur de Monts Nature Center",
+      "parks": [
+        {
+          "states": "ME",
+          "parkCode": "acad",
+          "designation": "National Park",
+          "fullName": "Acadia National Park",
+          "url": "https://www.nps.gov/acad/index.htm",
+          "name": "Acadia"
+        }
+      ],
+      "type": "visitorcenters"
+    },
+    {
+      "id": "5F650098-63EC-4939-AC54-DD1DC4E6DBE8",
+      "label": "Thompson Island Information Center",
+      "parks": [
+        {
+          "states": "ME",
+          "parkCode": "acad",
+          "designation": "National Park",
+          "fullName": "Acadia National Park",
+          "url": "https://www.nps.gov/acad/index.htm",
+          "name": "Acadia"
+        }
+      ],
+      "type": "visitorcenters"
+    },
+    {
+      "id": "ACA9C02C-8464-4717-A751-47BCB6FFABF9",
+      "label": "Village Green Information Center",
+      "parks": [
+        {
+          "states": "ME",
+          "parkCode": "acad",
+          "designation": "National Park",
+          "fullName": "Acadia National Park",
+          "url": "https://www.nps.gov/acad/index.htm",
+          "name": "Acadia"
+        }
+      ],
+      "type": "visitorcenters"
+    },
+    {
+      "id": "FAF17FEF-AA34-4139-8A56-0B87E2B866F8",
+      "label": "Winter Operations with Bar Harbor Chamber of Commerce",
+      "parks": [
+        {
+          "states": "ME",
+          "parkCode": "acad",
+          "designation": "National Park",
+          "fullName": "Acadia National Park",
+          "url": "https://www.nps.gov/acad/index.htm",
+          "name": "Acadia"
+        }
+      ],
+      "type": "visitorcenters"
+    }
+  ]
+}

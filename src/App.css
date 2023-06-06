@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+/* universal */
+.hide {
+  display: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.show {
+  display: block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* for visualization - delete later */
+
+.stamp-list-component {
+  background-color: orange;
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.stamp-list-wrapper {
+  background: rgb(221, 133, 133);
+  padding: 10px;
+}
+.stamp-list-wrapper ul {
+  background-color: white;
+}
+
+/* STAMP CSS */
+/* stamp active - modal */
+.close-btn {
+  z-index: 10;
+  position: absolute;
+  top: 14%;
+  right: 13%;
+}
+
+.stamp-active {
+  height: 100%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  position: absolute;
+  top: 1%;
+  left: 0%;
 }
 
-.App-link {
-  color: #61dafb;
+.stamp-cards-wrapper .stamp-active ul {
+  width: 75%;
+  height: 75%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* CARD TYPES */
+/* cards option active - make list into cards*/
+.stamp-cards-wrapper .title-row {
+  display: none;
 }
+
+.stamp-cards-wrapper {
+  display: block;
+  background: rgb(143, 135, 135);
+  padding: 2px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.stamp-cards-wrapper ul {
+  width: 25vw;
+  min-width: 150px;
+  background: blanchedalmond;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.stamp-cards-wrapper ul:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* list option active */
+.stamp-list-wrapper {
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 5px;
+}
+
+.stamp-list-wrapper .title-row {
+  font-weight: bold;
+}
+
+.stamp-list-wrapper ul {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 25px 1fr 2fr 1fr 3fr 1fr;
+  padding-left: 0;
+}
+
+.stamp-list-wrapper ul li {
+  border: 1px solid black;
+}
+
+.stamp-list-wrapper ul li,
+.stamp-cards-wrapper ul li {
+  list-style-type: none;
+}
+
+/* stamps on single stamp page */
